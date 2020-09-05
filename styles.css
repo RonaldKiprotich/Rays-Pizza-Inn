@@ -6,9 +6,9 @@
     font-weight:bolder;
     
 }
-header{
-    background-color: solid blue;
-}
-nav li a{
+nav {
     color: green;
+}
+.display-4{
+    text-align: center;
 }
