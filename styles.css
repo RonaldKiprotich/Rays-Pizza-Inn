@@ -4,6 +4,7 @@
     text-align: center;
     color: green;
     font-weight:bolder;
+    text-shadow: 6px 4px 4px rgb(216, 35, 171);
     
 }
 nav {
@@ -11,4 +12,8 @@ nav {
 }
 .display-4{
     text-align: center;
+    color: green;
+}
+.lead{
+    color: green;
 }
