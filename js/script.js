@@ -32,7 +32,7 @@ $(document).ready(function(){
       //saves the users order
       var userInput = new Order(flavor(), size(), crust(), topping(), number());
 
-      
+
        //calculates total expenditure of the user
        var totalCost =
        (userInput.newSize +
@@ -40,5 +40,19 @@ $(document).ready(function(){
          userInput.newTopping +
          userInput.newFlavor) *
        userInput.newQuantity;
+
+         //prompts for the user
+
+      alert("Your charges for Pizza " + totalCost);
+      prompt("enter your email address ");
+      prompt("enter your phone number ");
+      prompt("enter your location ");
+      alert("Your pizza will be delivered");
+
+      alert("Your charges for Pizza is " + totalCost);
+      prompt("enter your email address");
+      prompt("enter your phone number");
+      prompt("enter your location");
+      alert("Your pizza will be delivered. Delivery fee is Ksh. 150");
 });
 });
