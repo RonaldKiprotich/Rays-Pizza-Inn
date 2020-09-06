@@ -7,7 +7,7 @@
     text-shadow: 6px 4px 4px rgb(216, 35, 171);
     
 }
-nav {
+nav{
     color: green;
 }
 .display-4{
@@ -16,4 +16,8 @@ nav {
 }
 .lead{
     color: green;
+}
+#button{
+    color: rgb(240, 247, 240);
+    background-color: rgb(49, 163, 26);
 }

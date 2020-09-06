@@ -52,59 +52,63 @@
           <label for="exampleFormControlSelect1">Pizza Flavor</label>
           <select class="form-control" id="exampleFormControlSelect1">
             <option>Flavor</option>
-            <option>Chicken Alfredo Pizza</option>
-            <option>Mushrooms</option>
-            <option>Macaroni and Cheese Pizza</option>
-            <option>Beef Pizza</option>
-            <option>Sausage Pizza</option>
+            <option label="Chicken Alfredo Pizza" value="800">Chicken Alfredo Pizza</option>
+            <option label="Mushrooms" value="800">Mushrooms</option>
+            <option label="Macaroni and Cheese Pizza" value="1200">Macaroni and Cheese Pizza</option>
+            <option label="Beef Pizza" value="500">Beef Pizza</option>
+            <option label="Sausage Pizza" value="650">Sausage Pizza</option>
           </select>
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Pizza Size</label>
           <select class="form-control" id="exampleFormControlSelect1">
             <option>Size</option>
-            <option>Regular</option>
-            <option>Medium</option>
-            <option>Large</option>
-            <option>Mega</option>
+            <option label="Regular" value="500">Regular</option>
+            <option label="Medium" value="700">Medium</option>
+            <option label="Large" value="900">Large</option>
+            <option label="Mega" value="1200">Mega</option>
           </select>
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Pizza Crust</label>
           <select class="form-control" id="exampleFormControlSelect1">
             <option>Crust</option>
-            <option>Thin Crust</option>
-            <option>Thick Crust</option>
-            <option>Deep Crust</option>
-            <option>Cheese Filled Crust</option>
-            <option>Stuffed Crust</option>
+            <option label="Thin Crust" value="150">Thin Crust</option>
+            <option label="Thick Crust"value="200">Thick Crust</option>
+            <option label="Deep Crust"value="380">Deep Crust</option>
+            <option label="Cheese Filled Crust" value="500">Cheese Filled Crust</option>
+            <option label="Stuffed Crust" value="350">Stuffed Crust</option>
           </select>
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Pizza Topping</label>
           <select class="form-control" id="exampleFormControlSelect1">
-            <option>Topping</option>
-            <option>Pepperoni</option>
-            <option>Mushrooms</option>
-            <option>Onions</option>
-            <option>Sausage</option>
-            <option>Green Peppers</option>
+            <option label="Topping" value="">Topping</option>
+            <option label="Pepperoni" value="100">Pepperoni</option>
+            <option label="Mushrooms" value="300">Mushrooms</option>
+            <option label="Onions" value="120">Onions</option>
+            <option label="Sausage" value="125">Sausage</option>
+            <option label="Green Peppers" value="80">Green Peppers</option>
           </select>
         </div>
-        <!-- <div class="form-group">
-            <label for="exampleFormControlTextarea1">Number of Pizza</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div> -->
         <div class="col-sm-9">  <!-- [1, 1] -->
             <fieldset class="form-group">
                 <label id="fieldTitle">Number of Pizza</label>
-                <textarea class="form-control" placeholder="Please input the number of pizza you want." ng-model="myTextarea" required data-error=""></textarea>
+                <textarea id="quantinty" class="form-control" placeholder="Please input the number of pizza you want." ng-model="myTextarea" required data-error=""></textarea>
                 <div class="help-block with-errors">
 
                 </div>
             </fieldset>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button id="button" type="submit" class="btn btn-primary">Order</button>
     </form>
+    <!-- <style>
+        body{
+            background-image: url(images/pizza_4k_5k_hd.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style> -->
 </body>
 </html>
