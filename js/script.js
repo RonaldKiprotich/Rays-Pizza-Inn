@@ -43,17 +43,12 @@ $(document).ready(function() {
   
       //prompts for the user
 
-      alert("Your charges for Pizza " + totalCost);
-      prompt("enter your email address ");
-      prompt("enter your phone number ");
-      prompt("enter your location ");
-      alert("Your pizza will be delivered");
-
       alert("Your charges for Pizza is " + totalCost);
       prompt("enter your email address");
       prompt("enter your phone number");
       prompt("enter your location");
       alert("Your pizza will be delivered. Delivery fee is Ksh. 150");
+      alert("Thank you for believing in us")
 
   
       //a method to reset the form after all operations have been completed
