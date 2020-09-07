@@ -16,6 +16,10 @@ This is a platform that seeks to enable the users to place their prefered pizza 
 * CSS
 * BOOTSTRAP
 * jQuery
+## Figma Wireframe Link.
+"https://www.figma.com/file/UqRd6znuhbuGcPnkslpfMM/Ray-s-Pizza-Inn?node-id=0%3A1"
+## Livelink.
+"https://ronaldkiprotich.github.io/Rays-Pizza-Inn/"
 ## Support and contact details
 For enquiries and contribution to my project, kindly reach me through E-mail: "protich12@gmail.com"
 ### License
