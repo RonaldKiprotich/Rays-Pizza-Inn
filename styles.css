@@ -9,6 +9,7 @@
 }
 nav{
     color: green;
+    position: fixed;
 }
 .display-4{
     text-align: center;
@@ -24,9 +25,6 @@ nav{
 #pizza1{
     color:rgb(12, 114, 12);
     font-size:30px;
-}
-footer{
-    background-color: rgb(129, 224, 137);
 }
 #lastbtn{
     color: white;
